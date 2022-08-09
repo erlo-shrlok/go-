@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+    <title>图书信息显示</title>
+    <link rel="stylesheet" href="/xxx/css/login_css.css">
+</head>
+
+<body>
+<form action="/mf" method="GET">
+    <div class="container">
+        <div class="tit">{{ .BookName }}</div>
+        <p>图书编号: {{ .ID }}</p>
+        <p>类别： {{ .Type }}</p>
+        <p>作者: {{ .Author }}</p>
+        <p>出版社: {{ .Publisher }}</p>
+        <p>价格: {{ .Price }}</p>
+        <p>册数: {{ .Shuliang }}</p>
+        <button type="submit">修改</button>
+    </div>
+</form>
+<div class="square">
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+<div class="circle">
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+</body>
+
+</html>

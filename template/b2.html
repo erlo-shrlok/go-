@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+  <title>外借信息显示</title>
+  <link rel="stylesheet" href="/xxx/css/login_css.css">
+</head>
+
+<body>
+<form action="/mf" method="GET">
+  <div class="container">
+    <div class="tit">借书人 {{ .BorrowMan }} 的借阅信息</div>
+    <p>借书日期: {{ .BorrowDate }}</p>
+    <p>借书名称： {{ .BorrowBook }}</p>
+  </div>
+</form>
+<div class="square">
+  <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+</div>
+<div class="circle">
+  <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+</div>
+</body>
+
+</html>
